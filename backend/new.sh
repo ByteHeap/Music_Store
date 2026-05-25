@@ -1,0 +1,1 @@
+chmod +x /Users/xor_bodo/Downloads/Echipa10_F2/node_modules/.bin/vite
