@@ -174,7 +174,7 @@ export default App;
 <div style="display: flex; justify-content: center;">
     <img src="media/productspage.png" alt="APP" width="800" height="600">
 </div>
----
+
 
 ## 5. ADMINISTRATIVE CONTROL CONSOLE (`AdminDashboard.tsx`)
 
