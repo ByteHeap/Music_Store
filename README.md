@@ -20,7 +20,7 @@ This file contains the complete source code, architectural specifications, and s
 ## 1. ARCHITECTURAL OVERVIEW & LIVE SYNC CONFIGURATION
 
 ### Data Architecture
-No database table changes were required. The complex multi-group audio track listings are automatically marshaled and serialized into JSON objects and saved directly inside the pre-existing `specificatii` column. Product secondary galleries use the native `galerie` column structure.
+The platform relies on a seamless connection between the active Node.js backend (`server.js`) and the MySQL database instantiated by script (`script10.mysql`). The SQL script provisions the foundational relational schema (the `music_store` database and its tables). Then, `server.js` acts as the operational bridge, utilizing the `mysql2` driver to establish a persistent connection (via `root`@`localhost`) that maps incoming RESTful API HTTP requests directly to SQL CRUD executions.
 
 ### How to Run
 * **Vite Local Server Dev Host:** Forward port `5173` (Run via `npm run dev -- --host`)
