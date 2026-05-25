@@ -159,12 +159,13 @@ export default App;
 
 ---
 
-## 4. FULL CLIENT FRONTEND SOURCE CODES 
-
-*(Insert the Apple Style source codes here for `CategoryPage.tsx`, `PromotionsPage.tsx`, `ProductPage.tsx`, etc., wrapping each in ```tsx ... ``` blocks for perfect syntax highlighting).*
+## 4. FULL CLIENT FRONTEND SOURCE CODES  (`CategoryPage.tsx`, `BrandsPage.tsx`,`ArtistsPage.tsx`, `ProductPage.tsx`)
 
 <div style="display: flex; justify-content: center;">
-    <img src="media/admin.png" alt="APP" width="800" height="600">
+    <img src="media/artistpage.png" alt="APP" width="800" height="600">
+</div>
+<div style="display: flex; justify-content: center;">
+    <img src="media/brandspage.png" alt="APP" width="800" height="600">
 </div>
 
 <div style="display: flex; justify-content: center;">
@@ -177,5 +178,6 @@ export default App;
 
 ## 5. ADMINISTRATIVE CONTROL CONSOLE (`AdminDashboard.tsx`)
 
-*(Insert the AdminDashboard.tsx source code here, wrapped in ```tsx ... ```)*
-
+<div style="display: flex; justify-content: center;">
+    <img src="media/admin.png" alt="APP" width="800" height="600">
+</div>
